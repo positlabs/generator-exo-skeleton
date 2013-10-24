@@ -1,0 +1,7 @@
+dist/
+app/js/bower/
+node_modules/
+app/styles/*.css
+app/templates/compiled/
+.DS_Store
+.idea/
