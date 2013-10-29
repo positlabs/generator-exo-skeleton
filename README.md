@@ -2,6 +2,8 @@
 
 A generator for [Yeoman](http://yeoman.io).
 
+https://npmjs.org/package/generator-exo-skeleton
+
 
 ## Getting Started
 
