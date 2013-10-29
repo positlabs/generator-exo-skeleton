@@ -1,9 +1,9 @@
 {
   "name": "generator-exo-skeleton",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A generator for Yeoman",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator, exo-skeleton, backbone, scaffolding"
   ],
   "homepage": "https://github.com/positlabs/generator-exo-skeleton",
   "bugs": "https://github.com/positlabs/generator-exo-skeleton/issues",
