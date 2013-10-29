@@ -1,6 +1,6 @@
 {
   "name": "generator-exo-skeleton",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A generator for Yeoman",
   "keywords": [
     "yeoman-generator, exo-skeleton, backbone, scaffolding"
@@ -17,14 +17,8 @@
     "type": "git",
     "url": "git://github.com/positlabs/generator-exo-skeleton.git"
   },
-  "scripts": {
-    "test": "mocha"
-  },
   "dependencies": {
     "yeoman-generator": "~0.13.0"
-  },
-  "devDependencies": {
-    "mocha": "~1.12.0"
   },
   "peerDependencies": {
     "yo": ">=1.0.0-rc.1"
