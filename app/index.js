@@ -27,11 +27,14 @@ ExoSkeletonGenerator.prototype.askFor = function askFor() {
 ExoSkeletonGenerator.prototype.app = function app() {
 	var cb = this.async();
 
-	this.remote('positlabs', 'exo-skeleton', function (err, remote) {
-		console.log(remote.directory);
+	this.remote('positlabs', 'exo-skeleton', "master", function (err, remote) {
+		console.log(remote.directory, err?err:"");
 		remote.directory('.', '.');
 		cb();
-	});
+	}, true);
+	// TODO - not sure if this works, but should bust cache on repo pull
+	// could bust cache manually by deleting the cache directory
+	// ~/.cache/yeoman/exo-skeleton
 
 };
 
