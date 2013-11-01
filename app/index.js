@@ -34,7 +34,7 @@ ExoSkeletonGenerator.prototype.app = function app() {
 	}, true);
 	// TODO - not sure if this works, but should bust cache on repo pull
 	// could bust cache manually by deleting the cache directory
-	// ~/.cache/yeoman/exo-skeleton
+	// ~/.cache/yeoman/positlabs/exo-skeleton
 
 };
 
